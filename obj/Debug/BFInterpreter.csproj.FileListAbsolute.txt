@@ -1,0 +1,7 @@
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\bin\Debug\BFInterpreter.exe.config
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\bin\Debug\BFInterpreter.exe
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\bin\Debug\BFInterpreter.pdb
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\obj\Debug\BFInterpreter.csprojAssemblyReference.cache
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\obj\Debug\BFInterpreter.csproj.CoreCompileInputs.cache
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\obj\Debug\BFInterpreter.exe
+C:\Users\saravanan\source\repos\BFInterpreter\BFInterpreter\obj\Debug\BFInterpreter.pdb
