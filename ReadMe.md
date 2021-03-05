@@ -19,6 +19,6 @@ There are now two ways to write comments in BrainF:
 +++--+->>++-.
 /This is a weird comment. . . ./
 <<.
-```Ṭ
+```
 
 ~~A big thank you to @classPythonAddike for making this repo possible!~~
