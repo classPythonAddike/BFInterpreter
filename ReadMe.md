@@ -9,10 +9,11 @@ git clone https://github.com/classPythonAddike/BFInterpreter.git
 2. If you are on a 64-bit Windows computer, you just got lucky! I've already compiled this program, and it can be found in the [Debug Folder](https://github.com/classPythonAddike/BFInterpreter/tree/master/bin/Debug)!
 3. If you are not on Windows, or not on a 64-bit machine, you have two options - Use the online repl.it, or build the project yourself.
 4. If you want to use the online repl.it, fork [This Repl.it](https://repl.it/@PythonAddictCla/BFInterpreter#ReadMe.md).
-5. Then move into the debug folder: `cd bin/Debug`. You can run one of the samples in the BrainFSamples folder, or write your BrainF code!
-6. If you don't want to use the Repl.it, you can build it on your local machine. This can be done from the terminal, or with an IDE like Mono, Visual Studio Code, Rider, or Visual Studio or ~~Notepad++~~ (assuming you have a C# Compiler)
+5. Once you fork the repl.it, build the project with `csc Program.cs -out:bin/Debug/BFInterpreter.exe`.
+6. Then move into the debug folder: `cd bin/Debug`. You can run one of the samples in the BrainFSamples folder, or write your BrainF code!
+7. If you don't want to use the Repl.it, you can build it on your local machine. This can be done from the terminal, or with an IDE like Mono, Visual Studio Code, Rider, or Visual Studio or ~~Notepad++~~ (assuming you have a C# Compiler)
 
-7. Run your BrainF code with `> BFInterpreter.exe file.bf` where `file.bf` is the file you want to run!
+7. Run your BrainF code with `> BFInterpreter.exe file.bf` where `file.bf` is the file you want to run! However, if you are using repl.it, you'll need to run `mono BFInterpreter.exe sample.bf`!
 8. There are a few samples in the [BrainFSamples Folder](https://github.com/classPythonAddike/BFInterpreter/tree/master/bin/Debug/BrainFSamples). These are taken from various sources off the internet!
 
 ## Update:
