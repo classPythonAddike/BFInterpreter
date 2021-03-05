@@ -18,7 +18,7 @@ git clone https://github.com/classPythonAddike/BFInterpreter.git
 
 ## Update:
 There are now two ways to write comments in BrainF:
-1. Just writing any character other than BrainF command. The Interpreter will ignore such a character and move on.
+1. Just writing any character other than a BrainF command. The Interpreter will ignore such a character and move on.
 2. However, if your comments include a BrainF command, you can place it in between two forward slashes. Example:
 ```bf
 +++--+->>++-.
