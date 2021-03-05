@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>BFInterpreter</RootNamespace>
     <AssemblyName>BFInterpreter</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,13 +48,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\sample.bf" />
+    <None Include="bin\Debug\BrainFSamples\reverse.bf">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>BFInterpreter.bin.Debug.BrainFSamples</CustomToolNamespace>
+    </None>
+    <None Include="bin\Debug\BrainFSamples\print.bf">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>BFInterpreter.bin.Debug.BrainFSamples</CustomToolNamespace>
+    </None>
+    <None Include="bin\Debug\BrainFSamples\repeat.bf">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>BFInterpreter.bin.Debug.BrainFSamples</CustomToolNamespace>
+    </None>
+    <None Include="bin\Debug\BrainFSamples\sample.bf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

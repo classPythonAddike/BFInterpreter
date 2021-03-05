@@ -34,9 +34,10 @@ namespace BFInterpreter
 				{
 					ParseBF(BFCode);
 				}
-				catch
+				catch(Exception e)
 				{
-					Console.WriteLine("\nError!");
+					Console.WriteLine("\nError:");
+					Console.WriteLine(e.Message);
 					break;
 				}
 			}
@@ -75,6 +76,14 @@ namespace BFInterpreter
 				{
 					chr = Console.ReadKey().ToString().ToCharArray()[0];
 					memory_blocks[pointer] = (int)chr;
+				}
+				else if (code[CurrentChar] == '/')
+				{
+					CurrentChar++;
+					while (code[CurrentChar] != '/')
+					{
+						CurrentChar++;
+					}
 				}
 				else if (code[CurrentChar] == '[')
 				{
