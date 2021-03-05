@@ -21,4 +21,4 @@ There are now two ways to write comments in BrainF:
 <<.
 ```Ṭ
 
-A big thank you to ~~@classPythonAddike~~ for making this repo possible!
+~~A big thank you to @classPythonAddike for making this repo possible!~~
